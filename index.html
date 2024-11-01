@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1 class="heading">Phone Contacts</h1>
+    <marquee direction="right" class="scroll-bar">Search Contact Number by Name</marquee>
+    <div class="container">
+     <div class="contact-container">
+        <div class="contact">
+            <input type="text" class="input" id="input-area" placeholder="Enter name">
+            <img src="./img/people.png" onclick="getContact()" class="search-icon" alt="search-icon">
+        </div>
+        <div class="contact-num">
+            <h3 class="num-heading" id="result"></h3>
+        </div>
+     </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
